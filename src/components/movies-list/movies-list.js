@@ -1,7 +1,6 @@
 import React from "react"
-import Movies from "./Movies"
-import "./MoviesList.css"
-
+import "./movies-list.css"
+import { MovieCard } from "../"
 class MoviesList extends React.Component {
   constructor(props) {
     super(props)
@@ -107,7 +106,7 @@ class MoviesList extends React.Component {
             .filter((movies) => movies.category.includes(this.props.category))
             .slice(0, this.state.canSee)
             .map((id) => (
-              <Movies
+              <MovieCard
                 {...id}
                 handleClick={this.handleClick}
                 likehandler={this.likeHandler}

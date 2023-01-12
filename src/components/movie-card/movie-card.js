@@ -1,7 +1,7 @@
 import React from "react"
-import "./Movies.css"
+import "./movie-card.css"
 import { FaThumbsUp, FaThumbsDown } from "react-icons/fa"
-const Movies = ({ handleClick, id, title, category, likes, dislikes }) => {
+const MovieCard = ({ handleClick, id, title, category, likes, dislikes }) => {
   return (
     <figure className="movie-container">
       <div className="oui">
@@ -46,4 +46,4 @@ const Movies = ({ handleClick, id, title, category, likes, dislikes }) => {
   )
 }
 
-export default Movies
+export default MovieCard
