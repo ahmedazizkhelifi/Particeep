@@ -1,0 +1,19 @@
+.default-button {
+  background: var(--color-p_one);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 2rem;
+  outline: none;
+  padding: 1rem;
+  width: 300px;
+}
+
+.done {
+  background-color: var(--color-s_one);
+  cursor: default;
+}
