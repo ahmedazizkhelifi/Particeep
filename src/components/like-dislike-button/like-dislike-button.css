@@ -33,7 +33,7 @@
 
 .like-dislike__like span,
 .like-dislike__dislike span {
-  color: var(--color-footer);
+  color: var(--color-main);
   font-weight: 800;
   margin-left: 10px;
   cursor: pointer;
