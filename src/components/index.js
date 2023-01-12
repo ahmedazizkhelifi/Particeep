@@ -1,3 +1,4 @@
-import { default as MovieCard } from "./movie-card/movie-card"
 import { default as MoviesList } from "./movies-list/movies-list"
-export { MovieCard, MoviesList }
+import { default as Card } from "./card/card"
+import { default as ImageWithLoading } from "./img-with-loading/img-with-loading"
+export { MoviesList, Card, ImageWithLoading }
