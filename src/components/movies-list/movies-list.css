@@ -21,7 +21,7 @@
   flex: 1;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
 }
 
@@ -53,6 +53,18 @@
   }
   .movie-list {
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .movie-list-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .movie-list-group {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
